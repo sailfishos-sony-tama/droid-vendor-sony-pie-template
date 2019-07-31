@@ -31,8 +31,11 @@ URL:           https://github.com/mer-hybris/droid-vendor-sony-ganges-kirin
 %install
 rm -rf $RPM_BUILD_ROOT
 mkdir -p $RPM_BUILD_ROOT/vendor
+mkdir -p $RPM_BUILD_ROOT/vendor/etc/vintf
 cp %{device}/vendor/build.prop $RPM_BUILD_ROOT/vendor/build.prop
+cp %{device}/vendor/etc/vintf/manifest.xml $RPM_BUILD_ROOT/vendor/etc/vintf/manifest.xml
 
 %files
 %defattr(-,root,root,-)
 /vendor/build.prop
+/vendor/etc/vintf/manifest.xml
