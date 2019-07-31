@@ -6,7 +6,7 @@
 %global debug_package %{nil}
 
 %define habuild_device kirin
-%define device i4113
+%define device i3113
 
 Name:          droid-system-vendor-%{habuild_device}-%{device}
 Summary:       Built from source /vendor for Droid HAL adaptations
@@ -17,7 +17,7 @@ License:       Proprietary
 Requires:      droid-system-vendor-%{habuild_device}
 Source0:       %{name}-%{version}.tgz
 Source1:       droid-system-vendor-%{habuild_device}-rpmlintrc
-URL:           https://github.com/mer-hybris/droid-vendor-sony-ganges-kirin
+URL:           https://github.com/mer-hybris/droid-vendor-sony-pie-template
 
 %description
 %{summary}
