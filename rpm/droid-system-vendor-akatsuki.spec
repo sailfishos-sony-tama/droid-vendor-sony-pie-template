@@ -1,5 +1,5 @@
 %define multiple_rpms 1
-%define rpm_device akari
+%define rpm_device akatsuki
 
 %define variant -vendor
 
