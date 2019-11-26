@@ -6,7 +6,7 @@
 %global debug_package %{nil}
 
 %define habuild_device akari
-%define device h8216
+%define device h8266
 
 Name:          droid-system-vendor-%{habuild_device}-%{device}
 Summary:       Built from source /vendor for Droid HAL adaptations
